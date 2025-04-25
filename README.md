@@ -108,10 +108,10 @@ void loop() {
 ### Web Projects
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/username/bitchar2json-5x8@main/dist/bitchar2json-5x8.min.js"></script>
+<script src="./bitchar2json-5x8.min.js"></script>
 <script>
   // Character set is now available as a global variable
-  const myChar = BitChar['A'];
+  const myChar = bitchar2json['A'];
   
   // Use the character matrix in your project
   // ...
@@ -149,7 +149,7 @@ const myCustomChar = [
 ];
 
 // Add to the existing character set
-BitChar['myChar'] = myCustomChar;
+bitchar2json['myChar'] = myCustomChar;
 ```
 
 ## Pixel Format
@@ -178,9 +178,9 @@ Where:
 Contributions are welcome! If you'd like to add new characters or improve existing ones:
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-character`)
+2. Create your feature branch (`git checkout -b IsaacVeraPonce/bitchar2json-5x8`)
 3. Commit your changes (`git commit -m 'Add some amazing character'`)
-4. Push to the branch (`git push origin feature/amazing-character`)
+4. Push to the branch (`git push origin IsaacVeraPonce/bitchar2json-5x8`)
 5. Open a Pull Request
 
 ## License
